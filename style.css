@@ -1,0 +1,80 @@
+body{
+    background: #1e1e1e;
+}
+
+.calc{
+    width: 380px;
+    height: 510px;
+    background: rgb(31, 31, 31);
+    margin-left: 550px;
+    margin-top: 120px;
+    box-shadow: black 8px 8px 20px;
+    border-radius: 5px;
+}
+#screen{
+    font-size: 20px;
+    width: 85%;
+    margin-left: 25px;
+    height: 60px;
+    margin-top: 30px;
+    pointer-events: none;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 20px;
+    width: 60px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 27px;
+    background: rgb(91, 91, 91);
+    border-radius: 8px;
+    transition: all .6s ease;
+}
+
+.clear{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 27px;
+    background: rgb(255, 0, 0);
+    border-radius: 8px;
+    transition: all .6s ease;
+}
+
+.clear:hover{
+    transform: scale(1.050);
+}
+
+.equal{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 27px;
+    background: rgb(176, 174, 174);
+    border-radius: 8px;
+    transition: all .6s ease;
+}
+
+.equal:hover{
+    transform: scale(1.050);
+}
+
+.del{
+    font-size: 20px;
+    width: 60px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 27px;
+    background: rgb(255, 69, 69);
+    border-radius: 8px;
+    transition: all .6s ease;
+}
+
+.del:hover{
+    transform: scale(1.050);
+}
+
+
+
