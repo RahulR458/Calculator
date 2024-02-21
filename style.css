@@ -1,13 +1,18 @@
 body{
     background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .calc{
+    max-width: 380px;
     width: 380px;
     height: 510px;
     background: rgb(31, 31, 31);
-    margin-left: 550px;
-    margin-top: 120px;
+    /* margin-left: 550px; */
+    /* margin-top: 120px; */
     box-shadow: black 8px 8px 20px;
     border-radius: 5px;
 }
